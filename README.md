@@ -11,20 +11,14 @@ This repository contains updated examples and tutorials for learning CUDA progra
 
 ## Building the Project
 
-1. Create a build directory:
+1. Create a build directory and configure:
 ```bash
-mkdir build
-cd build
+cmake -B build
 ```
 
-2. Configure the project with CMake:
+2. Build the project:
 ```bash
-cmake ..
-```
-
-3. Build the project:
-```bash
-cmake --build .
+cmake --build build
 ```
 
 The executables will be generated in the `build` directory.
